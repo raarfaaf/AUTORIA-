@@ -1,0 +1,41 @@
+body {
+    background-color: #f8f9fa;
+}
+.carousel {
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+.team-section {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.btn-primary {
+    background-color: #6f42c1;
+    border-color: #6f42c1;
+    padding: 10px 25px;
+    font-size: 1.1rem;
+}
+.btn-primary:hover {
+    background-color: #5a32a3;
+    border-color: #5a32a3;
+}
+
+.team-badge {
+    background-color: #6f42c1;
+    color: rgb(0, 0, 0);
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    display: inline-block;
+}
